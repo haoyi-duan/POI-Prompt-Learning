@@ -4,6 +4,8 @@ This is my on-going project, which is extension of **[Time as Prompt for A Geogr
 ## Introduction
 
 In our previous work, the experimental results on four benchmark datasets demonstrated the superiority of our proposed framework **TPG** comparing with other state-of-the-art methods. The results indicated that **temporal signal** of next location is of great significance. We also demonstrate through ablation studies that our proposed **shifted window** mechanism is capable of overcoming defects of previous approaches.
+![promptlearning](https://user-images.githubusercontent.com/58615742/202865249-a9296cd8-db44-4b70-abf1-5732cb786dac.jpg)
+
 
 In the light of this fact, we plan to transfer prompt into more intelligent
 one. Large-scale pre-trained models from NLP communities have demonstrated unlimited potential. We can consider to combine POI recommendation with language pre-trained models through prompt. Inspired by previous work [P-tuning v2](https://arxiv.org/abs/2110.07602), we design **continuous prompt** and **discrete prompt**. For continuous prompt, we transfer stop words to pseudo prompts, and for discrete prompt, I have proposed some templates:
